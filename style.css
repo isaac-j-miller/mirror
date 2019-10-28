@@ -1,0 +1,83 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+#time{
+    font-size: 120%;
+}
+#date{
+    font-size: 150%;
+}
+#headline{
+    font-size: 100%;
+
+}
+#compliment{
+    position: fixed;
+    left: 2vw;
+    top: 2vh;
+    max-width: 30vw;
+    font-size: 120%;
+}
+#compliment-text{
+    font-style: italic;
+}
+#weatherspan{
+    position: fixed;
+    right: 2vw;
+    top: 2vh;
+    max-width: 35vw;
+}
+#weathertable{
+    justify-content: center;
+    padding: 2px;
+}
+h1.tabletxt{
+    font-size: 1em;
+}
+p.tabletxt{
+    font-size: 1em;
+    font-style: italic;
+}
+.news-deck{
+    display: block;
+}
+.news-card{
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-radius: 1em;
+    margin-bottom: 1vh;
+}
+.news-card-image{
+    position: relative;
+    border-radius: .5em;
+    left:0;
+    top:0;
+    width: 20%;
+    height: min-content;
+    margin: 3%;
+}
+.news-card-span{
+    display: block;
+    position: relative;
+    
+    margin-left: 1%;
+    right: 2%;
+    top: 2%;
+    bottom: 2%;
+    max-height: 100%;
+    font-size: 50%;
+}
+.news-card-headline{
+    max-width: 100%;
+    justify-content: right;
+}
+.news-card-text{
+    max-width: 100%;
+    justify-content: right;
+}
