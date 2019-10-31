@@ -141,7 +141,7 @@ function generate_compliment(){
         active_list = generic_compliments;
     }
     else if (h >=22 && h < 24){
-        active_list = night_compliments;
+        active_list = evening_compliments;
     }
     var index = Math.floor(Math.random()*active_list.length);
     var compliment= active_list[index];

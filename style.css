@@ -22,6 +22,7 @@ body{
 }
 #compliment-text{
     font-style: italic;
+    font-size: 150%;
 }
 #weatherspan{
     position: fixed;
